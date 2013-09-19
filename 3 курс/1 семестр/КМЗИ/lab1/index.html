@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Лабораторная работа #1 по КМЗИ</title>
+		<link rel="stylesheet" href="style/foundation.min.css" type="text/css">
+	</head>
+	<body>
+		<div class="row">
+			<div class="panel">
+				<div class="row">
+					<div class="large-12 columns">
+					  <h2>Метод сложной замены</h2>
+					</div>
+					<div class="large-6 columns">
+						<label for="input_text_diff_replace" >Исходный текст</label>
+						<textarea id="input_text_diff_replace" ></textarea>	
+					</div>
+					<div class="large-6 columns">
+						<label for="result_diff_replace" >Результат</label>
+						<textarea id="result_diff_replace" disabled></textarea>	
+					</div>
+					<div class="large-6 columns">
+						<label for="input_key_diff_replace" >Введите ключ</label>
+						<textarea id="input_key_diff_replace" ></textarea>	
+					</div>
+					<div class="large-6 columns">
+						<br/>
+						<div class="button small" id="crypt_diff_replace" >Зашифровать</div>
+						<div class="button small" id="encrypt_diff_replace">Дешифровать</div>
+						<div class="button small success" id="copy_to_next_diff_replace">Далее</div>
+					</div>
+					<hr>
+				</div>
+
+				<div class="row">
+					<div class="large-12 columns">
+				  <h2>Криптосистема Хилла</h2>
+				</div class="row">
+					<div class="large-6 columns">
+						<label for="input_text_hill" >Исходный текст</label>
+						<textarea id="input_text_hill" ></textarea>	
+					</div>
+					<div class="large-6 columns">
+						<label for="result_hill" >Результат</label>
+						<textarea id="result_hill" disabled></textarea>	
+					</div>
+					<div class="large-6 columns">
+						<label for="input_key_hill">Введите ключ</label>
+						<textarea id="input_key_hill" disabled></textarea>	
+					</div>
+					<div class="large-6 columns">
+						<br/>
+						<div class="button small" id="crypt_hill" >Зашифровать</div>
+						<div class="button small" id="encrypt_hill">Дешифровать</div>
+						<div class="button small success" id="copy_to_next_hill">Далее</div>
+					</div>
+					<hr>
+				</div>
+		
+				<div class="row">
+					<div class="large-12 columns">
+				  <h2>Сжатие алгоритмом LZW</h2>
+				</div class="row">
+					<div class="large-6 columns">
+						<label for="input_text_lzw" >Исходный текст</label>
+						<textarea id="input_text_lzw" ></textarea>	
+					</div>
+					<div class="large-6 columns">
+						<label for="result_lzw" >Результат</label>
+						<textarea id="result_lzw" disabled></textarea>	
+					</div>
+					<div class="large-6 offser-large-6 columns">
+						<br/>
+						<div class="button small" id="crypt_lzw" >Сжать</div>
+						<div class="button small" id="encrypt_lzw">Разжать</div>
+					</div>
+				</div>
+
+			</div>	
+		</div>	
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+7556 ?        00:00:00 plugplay.exe
+7565 ?        00:00:00 explorer.exe
+aaaa7741 ?        00:00:06 soffice.bin
+7768 ?        00:00:13 evince
+evinced
+kworker/u:2
+8069 ?        00:00:00 kworker/u:1
+8097 pts/0    00:00:00 ps
+10039 ?        00:00:00 scsi_eh_5
+udevd
+31123 ?        00:00:00 migration/1
+32593 ?        00:00:12 kworker/0:2

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Лабораторная работа #2 по КМЗИ</title>
+		<link rel="stylesheet" href="style/foundation.min.css" type="text/css">
+	</head>
+	<body>
+		<div class="row">
+			<input type='file' accept='image/*' onchange='openFile(event)'><br>
+
+			<div class="row">
+				Оригинал
+				<img id='base_img'>
+				<br />
+			</div>
+			
+			<div class="row">
+				Зашифрованная методом OFB
+				<img id='encrypted_img_ofb'>
+				<br />
+			</div>
+			
+			<div class="row">
+				Расшифрованная методом OFB
+				<img id='decrypted_img_ofb'>
+				<br />
+			</div>
+
+			<div class="row">
+				Зашифрованная методом ECB
+				<img id='encrypted_img_ecb'>
+				<br />
+			</div>
+
+			<div class="row">
+				Расшифрованная методом ECB
+				<img id='decrypted_img_ecb'>
+				<br />
+			</div>
+	</div>	
+	<!--
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	-->
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
